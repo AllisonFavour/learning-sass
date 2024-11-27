@@ -1,0 +1,32 @@
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    .logo-container {
+        margin-inline-start: 40px;
+
+    }
+
+    ul {
+        margin-inline-end: 40px;
+
+        li {
+            display: inline;
+            list-style: none;
+            margin-inline-start: 30px;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

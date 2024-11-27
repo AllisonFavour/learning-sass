@@ -1,0 +1,29 @@
+.about {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: $primary-font;
+    margin-block-start: 23rem;
+    padding: 3rem 5rem;
+
+
+    p {
+        width: 400px;
+        line-height: 1.7;
+        color: #e8d4ef;
+
+
+        span {
+            padding: 5px;
+            background: $gradient;
+            border-radius: 100px;
+        }
+    }
+
+    .two {
+        align-self: flex-end;
+    }
+}

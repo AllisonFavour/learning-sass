@@ -1,0 +1,30 @@
+/* FOOTER */
+
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        padding-block: 10px;
+        padding-inline: 20px;
+        margin-block-end: 20px;
+    }
+
+    textarea {
+        width: 420px;
+        height: 200px;
+        padding: 20px;
+        margin-block-end: 20px;
+    }
+
+    a {
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        padding-block: 10px;
+        padding-inline: 20px;
+    }
+}

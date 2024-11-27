@@ -1,0 +1,59 @@
+.projects {
+    .title {
+        margin-inline-start: 50px;
+        margin-block-start: 8rem;
+        color: #fff;
+        font-family: $main-font;
+        font-size: 4rem;
+        font-weight: normal;
+        transform: translateY(-50px);
+
+
+        span {
+            background: $label-color;
+        }
+    }
+
+
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 170px;
+        height: 100vh;
+        margin: 30px 10px;
+
+    }
+
+    .img-one {
+        transform: translateY(200px);
+    }
+
+    .img-two {
+        transform: translateY(150px);
+    }
+
+    .img-three {
+        transform: translateY(100px);
+    }
+
+
+
+    @media screen and (max-width: 680px) {
+        .img-one {
+            margin-block-end: 6rem;
+        }
+
+        .img-two {
+            margin-block-end: 6rem;
+        }
+
+        .img-three {
+            margin-block-end: 6rem;
+        }
+    }
+}

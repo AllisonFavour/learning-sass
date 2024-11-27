@@ -1,0 +1,70 @@
+.frame-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     
+
+     .gradient {
+        width: 72%;
+        height: 76%;
+        position: absolute;
+        bottom: 74px;
+        background: $gradient;
+        border-radius: 10px;
+     }
+
+     header {
+        width: 70%;
+        height: 90%;
+        margin-block-start: 2rem;
+        background-image: url('Images/simon-de-vries-UQluWXKUn7A-unsplash.jpg');
+        background-size: cover;
+        background-position: 0 -280px;
+        background-repeat: no-repeat;
+        position: relative;
+
+
+        @media screen and (max-width: 700px) {
+         background-position: center;
+        }
+
+
+        .social {
+         width: 10%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         color: #fff;
+         margin-inline-start: 10px;
+         text-align: center;
+
+
+         .fa-brands {
+            margin-block-end: 10px;
+           }
+
+
+         .line {
+            margin: 0 auto;
+            width: 4px;
+            border-radius: 10px;
+            height: 20%;
+            background-color: #ae81bf;
+            margin-block-end: 20px;
+           }
+        }
+
+
+        h1 {
+         margin-inline-start: 50px;
+         color: #fff;
+         font-size: 5rem;
+         font-family: $main-font;
+         font-weight: normal;
+         transform: translateY(-50px);
+        }
+     }
+}
+
